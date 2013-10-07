@@ -22,6 +22,34 @@
 		41F72AA517FE14DE00319198 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F72A8417FE14DE00319198 /* UIKit.framework */; };
 		41F72AAD17FE14DE00319198 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41F72AAB17FE14DE00319198 /* InfoPlist.strings */; };
 		41F72AAF17FE14DE00319198 /* MobileInsights1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F72AAE17FE14DE00319198 /* MobileInsights1Tests.m */; };
+		41F72ABB17FE22DC00319198 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F72ABA17FE22DC00319198 /* MediaPlayer.framework */; };
+		A516E5EB17FE85260034E9BF /* JSON in Frameworks */ = {isa = PBXBuildFile; fileRef = A516E5EA17FE85260034E9BF /* JSON */; };
+		A516E5F917FE86680034E9BF /* JSON.h in Sources */ = {isa = PBXBuildFile; fileRef = A5DEACA017FE7F69001FC147 /* JSON.h */; };
+		A516E5FB17FE86680034E9BF /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DEACA217FE7F69001FC147 /* NSObject+SBJSON.m */; };
+		A516E5FD17FE86680034E9BF /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DEACA417FE7F69001FC147 /* NSString+SBJSON.m */; };
+		A516E5FF17FE86680034E9BF /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DEACA617FE7F69001FC147 /* SBJSON.m */; };
+		A516E60117FE86680034E9BF /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DEACA817FE7F69001FC147 /* SBJsonBase.m */; };
+		A516E60317FE86680034E9BF /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DEACAA17FE7F69001FC147 /* SBJsonParser.m */; };
+		A516E60517FE86680034E9BF /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DEACAC17FE7F69001FC147 /* SBJsonWriter.m */; };
+		A516E62B17FE9D010034E9BF /* SqlLiteDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A516E62917FE9D010034E9BF /* SqlLiteDelegate.m */; };
+		A516E62D17FE9D520034E9BF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A516E62C17FE9D520034E9BF /* libsqlite3.dylib */; };
+		A516E62F17FEA1010034E9BF /* ShoppingListDB.sql in Resources */ = {isa = PBXBuildFile; fileRef = A516E62E17FEA1010034E9BF /* ShoppingListDB.sql */; };
+		A5DEACAD17FE7F69001FC147 /* JSON.h in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACA017FE7F69001FC147 /* JSON.h */; };
+		A5DEACAE17FE7F69001FC147 /* NSObject+SBJSON.h in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACA117FE7F69001FC147 /* NSObject+SBJSON.h */; };
+		A5DEACAF17FE7F69001FC147 /* NSObject+SBJSON.m in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACA217FE7F69001FC147 /* NSObject+SBJSON.m */; };
+		A5DEACB017FE7F69001FC147 /* NSString+SBJSON.h in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACA317FE7F69001FC147 /* NSString+SBJSON.h */; };
+		A5DEACB117FE7F69001FC147 /* NSString+SBJSON.m in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACA417FE7F69001FC147 /* NSString+SBJSON.m */; };
+		A5DEACB217FE7F69001FC147 /* SBJSON.h in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACA517FE7F69001FC147 /* SBJSON.h */; };
+		A5DEACB317FE7F69001FC147 /* SBJSON.m in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACA617FE7F69001FC147 /* SBJSON.m */; };
+		A5DEACB417FE7F69001FC147 /* SBJsonBase.h in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACA717FE7F69001FC147 /* SBJsonBase.h */; };
+		A5DEACB517FE7F69001FC147 /* SBJsonBase.m in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACA817FE7F69001FC147 /* SBJsonBase.m */; };
+		A5DEACB617FE7F69001FC147 /* SBJsonParser.h in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACA917FE7F69001FC147 /* SBJsonParser.h */; };
+		A5DEACB717FE7F69001FC147 /* SBJsonParser.m in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACAA17FE7F69001FC147 /* SBJsonParser.m */; };
+		A5DEACB817FE7F69001FC147 /* SBJsonWriter.h in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACAB17FE7F69001FC147 /* SBJsonWriter.h */; };
+		A5DEACB917FE7F69001FC147 /* SBJsonWriter.m in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACAC17FE7F69001FC147 /* SBJsonWriter.m */; };
+		A5DEACBE17FE8172001FC147 /* ShoppingListDetailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DEACBB17FE8172001FC147 /* ShoppingListDetailItem.m */; };
+		A5DEACBF17FE8172001FC147 /* ShoppingListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DEACBC17FE8172001FC147 /* ShoppingListItem.m */; };
+		A5DEACC117FE8454001FC147 /* JSON in Resources */ = {isa = PBXBuildFile; fileRef = A5DEACC017FE8454001FC147 /* JSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +83,30 @@
 		41F72AAA17FE14DE00319198 /* MobileInsights1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileInsights1Tests-Info.plist"; sourceTree = "<group>"; };
 		41F72AAC17FE14DE00319198 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41F72AAE17FE14DE00319198 /* MobileInsights1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileInsights1Tests.m; sourceTree = "<group>"; };
+		41F72ABA17FE22DC00319198 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A516E5EA17FE85260034E9BF /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JSON; path = ../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON; sourceTree = "<group>"; };
+		A516E62917FE9D010034E9BF /* SqlLiteDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SqlLiteDelegate.m; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/SqlLiteDelegate.m; sourceTree = "<group>"; };
+		A516E62A17FE9D010034E9BF /* SqlLiteDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SqlLiteDelegate.h; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/SqlLiteDelegate.h; sourceTree = "<group>"; };
+		A516E62C17FE9D520034E9BF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A516E62E17FEA1010034E9BF /* ShoppingListDB.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = ShoppingListDB.sql; path = ../../../Documents/Hackathon/M7/ShoppingListDB.sql; sourceTree = "<group>"; };
+		A5DEACA017FE7F69001FC147 /* JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/JSON.h; sourceTree = "<group>"; };
+		A5DEACA117FE7F69001FC147 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJSON.h"; path = "../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		A5DEACA217FE7F69001FC147 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJSON.m"; path = "../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		A5DEACA317FE7F69001FC147 /* NSString+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+SBJSON.h"; path = "../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/NSString+SBJSON.h"; sourceTree = "<group>"; };
+		A5DEACA417FE7F69001FC147 /* NSString+SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+SBJSON.m"; path = "../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/NSString+SBJSON.m"; sourceTree = "<group>"; };
+		A5DEACA517FE7F69001FC147 /* SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJSON.h; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/SBJSON.h; sourceTree = "<group>"; };
+		A5DEACA617FE7F69001FC147 /* SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJSON.m; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/SBJSON.m; sourceTree = "<group>"; };
+		A5DEACA717FE7F69001FC147 /* SBJsonBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonBase.h; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/SBJsonBase.h; sourceTree = "<group>"; };
+		A5DEACA817FE7F69001FC147 /* SBJsonBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonBase.m; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/SBJsonBase.m; sourceTree = "<group>"; };
+		A5DEACA917FE7F69001FC147 /* SBJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/SBJsonParser.h; sourceTree = "<group>"; };
+		A5DEACAA17FE7F69001FC147 /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/SBJsonParser.m; sourceTree = "<group>"; };
+		A5DEACAB17FE7F69001FC147 /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/SBJsonWriter.h; sourceTree = "<group>"; };
+		A5DEACAC17FE7F69001FC147 /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/JSON/SBJsonWriter.m; sourceTree = "<group>"; };
+		A5DEACBA17FE8172001FC147 /* ShoppingListDetailItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingListDetailItem.h; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/ShoppingListDetailItem.h; sourceTree = "<group>"; };
+		A5DEACBB17FE8172001FC147 /* ShoppingListDetailItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingListDetailItem.m; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/ShoppingListDetailItem.m; sourceTree = "<group>"; };
+		A5DEACBC17FE8172001FC147 /* ShoppingListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingListItem.m; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/ShoppingListItem.m; sourceTree = "<group>"; };
+		A5DEACBD17FE8172001FC147 /* ShoppingListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingListItem.h; path = ../../../Documents/Hackathon/M7/MobileInsights1/MobileInsights1/ShoppingListItem.h; sourceTree = "<group>"; };
+		A5DEACC017FE8454001FC147 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JSON; path = "../eBay(2.0.2) 2/common/JSON"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +114,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A516E62D17FE9D520034E9BF /* libsqlite3.dylib in Frameworks */,
+				A516E5EB17FE85260034E9BF /* JSON in Frameworks */,
 				41F72A8317FE14DE00319198 /* CoreGraphics.framework in Frameworks */,
 				41F72A8517FE14DE00319198 /* UIKit.framework in Frameworks */,
+				41F72ABB17FE22DC00319198 /* MediaPlayer.framework in Frameworks */,
 				41F72A8117FE14DE00319198 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,17 +158,41 @@
 		41F72A7F17FE14DE00319198 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A516E62C17FE9D520034E9BF /* libsqlite3.dylib */,
+				A516E5EA17FE85260034E9BF /* JSON */,
+				A5DEACC017FE8454001FC147 /* JSON */,
+				41F72ABA17FE22DC00319198 /* MediaPlayer.framework */,
 				41F72A8017FE14DE00319198 /* Foundation.framework */,
 				41F72A8217FE14DE00319198 /* CoreGraphics.framework */,
 				41F72A8417FE14DE00319198 /* UIKit.framework */,
 				41F72AA217FE14DE00319198 /* XCTest.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		41F72A8617FE14DE00319198 /* MobileInsights1 */ = {
 			isa = PBXGroup;
 			children = (
+				A516E62E17FEA1010034E9BF /* ShoppingListDB.sql */,
+				A516E62917FE9D010034E9BF /* SqlLiteDelegate.m */,
+				A516E62A17FE9D010034E9BF /* SqlLiteDelegate.h */,
+				A5DEACBA17FE8172001FC147 /* ShoppingListDetailItem.h */,
+				A5DEACBB17FE8172001FC147 /* ShoppingListDetailItem.m */,
+				A5DEACBC17FE8172001FC147 /* ShoppingListItem.m */,
+				A5DEACBD17FE8172001FC147 /* ShoppingListItem.h */,
+				A5DEACA017FE7F69001FC147 /* JSON.h */,
+				A5DEACA117FE7F69001FC147 /* NSObject+SBJSON.h */,
+				A5DEACA217FE7F69001FC147 /* NSObject+SBJSON.m */,
+				A5DEACA317FE7F69001FC147 /* NSString+SBJSON.h */,
+				A5DEACA417FE7F69001FC147 /* NSString+SBJSON.m */,
+				A5DEACA517FE7F69001FC147 /* SBJSON.h */,
+				A5DEACA617FE7F69001FC147 /* SBJSON.m */,
+				A5DEACA717FE7F69001FC147 /* SBJsonBase.h */,
+				A5DEACA817FE7F69001FC147 /* SBJsonBase.m */,
+				A5DEACA917FE7F69001FC147 /* SBJsonParser.h */,
+				A5DEACAA17FE7F69001FC147 /* SBJsonParser.m */,
+				A5DEACAB17FE7F69001FC147 /* SBJsonWriter.h */,
+				A5DEACAC17FE7F69001FC147 /* SBJsonWriter.m */,
 				41F72A8F17FE14DE00319198 /* AppDelegate.h */,
 				41F72A9017FE14DE00319198 /* AppDelegate.m */,
 				41F72A9217FE14DE00319198 /* Main_iPhone.storyboard */,
@@ -202,6 +281,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Krishnamurthy, Megha";
 				TargetAttributes = {
+					41F72A7C17FE14DE00319198 = {
+						DevelopmentTeam = MV4C9EF4ZV;
+					};
 					41F72AA017FE14DE00319198 = {
 						TestTargetID = 41F72A7C17FE14DE00319198;
 					};
@@ -231,9 +313,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A516E62F17FEA1010034E9BF /* ShoppingListDB.sql in Resources */,
+				A5DEACB117FE7F69001FC147 /* NSString+SBJSON.m in Resources */,
+				A5DEACB217FE7F69001FC147 /* SBJSON.h in Resources */,
+				A5DEACAE17FE7F69001FC147 /* NSObject+SBJSON.h in Resources */,
+				A5DEACB517FE7F69001FC147 /* SBJsonBase.m in Resources */,
+				A5DEACAD17FE7F69001FC147 /* JSON.h in Resources */,
+				A5DEACB717FE7F69001FC147 /* SBJsonParser.m in Resources */,
 				41F72A9717FE14DE00319198 /* Main_iPad.storyboard in Resources */,
+				A5DEACB317FE7F69001FC147 /* SBJSON.m in Resources */,
+				A5DEACB617FE7F69001FC147 /* SBJsonParser.h in Resources */,
+				A5DEACB417FE7F69001FC147 /* SBJsonBase.h in Resources */,
+				A5DEACC117FE8454001FC147 /* JSON in Resources */,
 				41F72A9C17FE14DE00319198 /* Images.xcassets in Resources */,
 				41F72A9417FE14DE00319198 /* Main_iPhone.storyboard in Resources */,
+				A5DEACB917FE7F69001FC147 /* SBJsonWriter.m in Resources */,
+				A5DEACAF17FE7F69001FC147 /* NSObject+SBJSON.m in Resources */,
+				A5DEACB817FE7F69001FC147 /* SBJsonWriter.h in Resources */,
+				A5DEACB017FE7F69001FC147 /* NSString+SBJSON.h in Resources */,
 				41F72A8B17FE14DE00319198 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +350,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A516E5F917FE86680034E9BF /* JSON.h in Sources */,
+				A516E5FB17FE86680034E9BF /* NSObject+SBJSON.m in Sources */,
+				A516E5FD17FE86680034E9BF /* NSString+SBJSON.m in Sources */,
+				A516E5FF17FE86680034E9BF /* SBJSON.m in Sources */,
+				A516E62B17FE9D010034E9BF /* SqlLiteDelegate.m in Sources */,
+				A516E60117FE86680034E9BF /* SBJsonBase.m in Sources */,
+				A516E60317FE86680034E9BF /* SBJsonParser.m in Sources */,
+				A516E60517FE86680034E9BF /* SBJsonWriter.m in Sources */,
 				41F72A9A17FE14DE00319198 /* ViewController.m in Sources */,
+				A5DEACBF17FE8172001FC147 /* ShoppingListItem.m in Sources */,
+				A5DEACBE17FE8172001FC147 /* ShoppingListDetailItem.m in Sources */,
 				41F72A9117FE14DE00319198 /* AppDelegate.m in Sources */,
 				41F72A8D17FE14DE00319198 /* main.m in Sources */,
 			);
@@ -392,10 +499,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mekrishnamurthy/Documents/workspace/MobileInsights1,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobileInsights1/MobileInsights1-Prefix.pch";
 				INFOPLIST_FILE = "MobileInsights1/MobileInsights1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,10 +519,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mekrishnamurthy/Documents/workspace/MobileInsights1,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobileInsights1/MobileInsights1-Prefix.pch";
 				INFOPLIST_FILE = "MobileInsights1/MobileInsights1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +595,7 @@
 				41F72AB417FE14DE00319198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41F72AB517FE14DE00319198 /* Build configuration list for PBXNativeTarget "MobileInsights1Tests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +604,7 @@
 				41F72AB717FE14DE00319198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

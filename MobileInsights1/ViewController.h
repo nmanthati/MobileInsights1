@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+@property (weak, nonatomic) IBOutlet UILabel *label1;
+@property (nonatomic) MPMediaQuery *everything;
+
+- (IBAction)onClick:(id)sender;
 
 @end
